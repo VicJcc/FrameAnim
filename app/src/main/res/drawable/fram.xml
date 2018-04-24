@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="true" >
+
+    <!-- animation-list 帧动画 -->
+    <!-- android:oneshot的值为 false代表播放多次，true代表只播放一次 -->
+    <!-- duration代表每张图片的播放时间 ,定义一个持续时间为50毫秒的动画帧 -->
+    <item
+        android:drawable="@drawable/fytkzc1_0"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_1"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_2"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_3"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_4"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_5"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_6"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_7"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_8"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_9"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_10"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_11"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_12"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_13"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_14"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_15"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_16"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_17"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_18"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_19"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_20"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_21"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_22"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_23"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_24"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_25"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_26"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_27"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_28"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_29"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_30"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_31"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_32"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_33"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_34"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_35"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_36"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_37"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_38"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_39"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_40"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_41"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_42"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_43"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_44"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_45"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_46"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_47"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_48"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_49"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_50"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_51"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_52"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_53"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_54"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_55"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_56"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_57"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_58"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_59"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_60"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_61"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_62"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_63"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_64"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_65"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_66"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_67"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_68"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_69"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_70"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_71"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_72"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_73"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_74"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_75"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_76"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_77"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_78"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_79"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_80"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_81"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_82"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_83"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_84"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_85"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_86"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_87"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_88"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_89"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_90"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_91"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_92"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_93"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_94"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_95"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_96"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_97"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_98"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_99"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_100"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_101"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_102"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_103"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_104"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_105"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_106"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_107"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_108"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_109"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_110"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_111"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_112"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_113"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_114"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_115"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_116"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_117"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_118"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_119"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_120"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_121"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_122"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_123"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_124"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_125"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_126"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_127"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_128"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_129"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_130"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_131"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_132"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_133"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_134"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_135"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_136"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_137"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_138"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_139"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_140"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_141"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_142"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_143"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_144"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_145"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_146"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_147"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_148"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_149"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_150"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_151"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_152"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_153"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_154"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_155"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_156"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_157"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_158"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_159"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_160"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_161"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_162"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_163"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_164"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_165"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_166"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_167"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_168"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_169"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_170"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_171"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_172"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_173"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_174"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_175"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_176"
+        android:duration="50"/>
+<item
+        android:drawable="@drawable/fytkzc1_177"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/fytkzc1_178"
+        android:duration="50"/>
+
+</animation-list>

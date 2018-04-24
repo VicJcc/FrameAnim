@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_frame"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_start_frame"
+            android:layout_height="48dp"
+            android:layout_width="96dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="Start"
+            android:gravity="center"/>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/tv_start_frame">
+            <ImageView
+                android:id="@+id/iv_frame"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_sur_frame"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_start_sur_frame"
+            android:layout_height="48dp"
+            android:layout_width="96dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="Start"
+            android:gravity="center"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_sur"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/tv_start_sur_frame">
+
+            <jcc.example.com.frameanim.JSurfaceView
+                android:id="@+id/suv_frame"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
