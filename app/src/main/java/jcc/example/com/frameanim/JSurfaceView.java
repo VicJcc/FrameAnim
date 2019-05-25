@@ -16,7 +16,7 @@ import android.view.SurfaceView;
 import android.view.ViewGroup;
 
 /**
- * Created by jincancan on 2018/4/18.
+ * Created by jincancan
  * Description:
  */
 public class JSurfaceView extends SurfaceView implements Runnable, SurfaceHolder.Callback{

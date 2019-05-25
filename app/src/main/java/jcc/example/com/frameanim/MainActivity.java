@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 animationDrawable.start();
                 break;
             case R.id.tv_start_sur_frame:
-                mSurFrame.startAnim(JAnimRes.frams_f);
+                mSurFrame.startAnim(JAnimRes.frams);
                 break;
         }
     }
