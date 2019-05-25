@@ -23,8 +23,17 @@ public class JSurfaceView extends SurfaceView implements Runnable, SurfaceHolder
 
     private SurfaceHolder mHolder;
 
+    /**
+     * 动画是否执行中
+     */
     private boolean bRunning;
+    /**
+     * 当前执行的第几帧
+     */
     private int mCurrentPos;
+    /**
+     * 动画集合
+     */
     private int[] mFrames;
 
     public JSurfaceView(Context context) {
@@ -42,12 +51,21 @@ public class JSurfaceView extends SurfaceView implements Runnable, SurfaceHolder
         init();
     }
 
+    private void init(){
+        mHolder = getHolder();
+        mHolder.addCallback(this);
+        //保证surfaceview在window最上层
+        setZOrderOnTop(true);
+        //使窗口支持透明度
+        mHolder.setFormat(PixelFormat.TRANSLUCENT);
+    }
     public void startAnim(int[] anim){
         if(bRunning){
             return;
         }
         mFrames = anim;
         resize();
+        // 推荐使用线程池
         new Thread(this).start();
         bRunning = true;
     }
@@ -65,23 +83,21 @@ public class JSurfaceView extends SurfaceView implements Runnable, SurfaceHolder
         }
         mCurrentPos = 0;
         bRunning = false;
+        // 动画执行完毕，清空画面
         Canvas mCanvas = mHolder.lockCanvas();
         Paint paint = new Paint();
         paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.CLEAR));
         mCanvas.drawPaint(paint);
+        // 解锁画布
         mHolder.unlockCanvasAndPost(mCanvas);
     }
 
-    private void init(){
-        mHolder = getHolder();
-        mHolder.addCallback(this);
-        setZOrderOnTop(true);
-        mHolder.setFormat(PixelFormat.TRANSLUCENT);//使窗口支持透明度
-    }
 
     private void drawBitmap(){
+        //获取画布并锁定
         Canvas mCanvas = mHolder.lockCanvas();
-        mCanvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);//绘制透明色
+        //绘制透明色
+        mCanvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);
         Bitmap mBitmap = BitmapFactory.decodeResource(getResources(), mFrames[mCurrentPos]);
 
         Paint paint = new Paint();
@@ -95,6 +111,7 @@ public class JSurfaceView extends SurfaceView implements Runnable, SurfaceHolder
                 getHeight());//  图片绘制位置
 
         mCanvas.drawBitmap(mBitmap, mSrcRect, mDestRect, paint);
+        //解锁画布，并展示bitmap到surface
         mHolder.unlockCanvasAndPost(mCanvas);
         mBitmap.recycle();
     }
@@ -106,18 +123,7 @@ public class JSurfaceView extends SurfaceView implements Runnable, SurfaceHolder
 
     @Override
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
-//        Bitmap mBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.f000);
-//        float scaleBmp = mBitmap.getWidth() * 1.0f / mBitmap.getHeight();
-//        float scale = width * 1.0f / height;
-//        if(scale > scaleBmp){
-//            ViewGroup.LayoutParams params = getLayoutParams();
-//            params.width = (int) (height * scaleBmp);
-//            setLayoutParams(params);
-//        }else if(scale < scaleBmp){
-//            ViewGroup.LayoutParams params = getLayoutParams();
-//            params.height = (int) (width / scaleBmp);
-//            setLayoutParams(params);
-//        }
+
     }
 
     @Override
@@ -125,6 +131,9 @@ public class JSurfaceView extends SurfaceView implements Runnable, SurfaceHolder
 
     }
 
+    /**
+     *重置控件尺寸
+     */
     public void resize(){
 
         ViewGroup.LayoutParams params = getLayoutParams();
